@@ -94,7 +94,7 @@ def main():
 
 
 	st.subheader("EDA")
-	st.write("Print first 5 rows of fuel consumption Co2 dataset")
+	st.write("First 5 rows of fuel consumption Co2 dataset")
 	st.write(df.head())
 
 	st.write('Here is a statistical summary of the numerical values in the dataset')
