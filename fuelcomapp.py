@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import streamlit as st
 
 # EDA Pkgs
@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use("Agg")
 import seaborn as sns
-import altair as alt
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # ML pkgs
