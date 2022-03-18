@@ -31,7 +31,7 @@ def main():
 
 	st.subheader("About")
 	st.write("Creator of App Hassan Jama. Application has 2 sections, Model building and EDA. In the model building section, the task is to perform a linear regression on the dataset. You will be able to select the algorithm you want to use along with the training and test split. Plus which variables will be the predictor variables and the predicted variable. At the end of the model building section, you'll be able to look at model accuracy and mean squared errors for your inputs. In the EDA section you will have the opportunity to explore and visualize the data.")
-	st.write("Datasourse:https://www.kaggle.com/vishalvishwa/fuelconsumptionco2")
+	st.write("Datasourse:https://www.kaggle.com/vishalvishwa/fuelconsumptionco2 ")
 
 
 
