@@ -23,7 +23,7 @@ from sklearn.metrics import mean_squared_error
 
 def main():
 
-	df = pd.read_csv("/content/FuelConsumptionCo2.csv")
+	df = pd.read_csv("FuelConsumptionCo2.csv")
 	df = df.drop('MODELYEAR', axis=1)
 	df1 = df.select_dtypes(exclude=['object'])
 	df2 = df.select_dtypes(include='object')
