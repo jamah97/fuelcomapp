@@ -108,7 +108,7 @@ def main():
 	#cv2= df1.columns.tolist()
 
 	if st.checkbox("Value counts and bar graphs of categorical variables in the dataset"):
-		columnsx = st.selectbox("Select X Column",cv)
+		columnsx = st.selectbox("Select Categorical Column",cv)
 		for i in df2.columns:
 			if columnsx == i:
 				st.dataframe(df2[i].value_counts())
