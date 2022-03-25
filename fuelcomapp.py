@@ -98,15 +98,15 @@ def main():
 	st.write(df.head())
 
 	if st.button("Numerical anaysis"):
-		c1, c2 = st.columns(2)
-		with cl:
-		    with st.expander('Statistical Summary')
-		        st.write('Here is a statistical summary of the numerical values in the dataset')
-			st.write(df.describe())
-		with c2:
-		    with st.expander('Correlation Summary')
-			st.write('Here is a correlation summary of the numerical values in the dataset')
-			st.write(df.corr())
+	    c1, c2 = st.columns(2)
+	    with cl:
+                with st.expander('Statistical Summary')
+		    st.write('Here is a statistical summary of the numerical values in the dataset')
+		    st.write(df.describe())
+	    with c2:
+	        with st.expander('Correlation Summary')
+		    st.write('Here is a correlation summary of the numerical values in the dataset')
+		    st.write(df.corr())
 
 	cv= df2.columns.tolist()
 	#cv1= df1.columns.tolist()
