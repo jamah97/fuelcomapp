@@ -97,10 +97,10 @@ def main():
 	st.write("First 5 rows of fuel consumption Co2 dataset")
 	st.write(df.head())
 
-	if st.button("Numerical anaysis"):
+	if st.button("Numerical Summary & Correlation"):
 	    st.write("Numerical summary")
 	    st.write(df.describe())
-	    st.write("Numerical corrlation")
+	    st.write("Numerical correlation")
 	    st.write(df.corr())
 
 	cv= df2.columns.tolist()
