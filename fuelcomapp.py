@@ -103,6 +103,7 @@ def main():
 	    st.write("Numerical correlation")
 	    st.write(df.corr())
 	    st.write(sns.heatmap(df.corr(),annot= True, cmap = 'PRGn', linewidths=1))
+	    st.pyplot()
 
 	cv= df2.columns.tolist()
 	#cv1= df1.columns.tolist()
