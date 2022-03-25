@@ -97,11 +97,15 @@ def main():
 	st.write("First 5 rows of fuel consumption Co2 dataset")
 	st.write(df.head())
 
-	st.write('Here is a statistical summary of the numerical values in the dataset')
-	st.write(df.describe())
-
-	st.write('Here is a correlation summary of the numerical values in the dataset')
-	st.write(df.corr())
+	c1, c2 =st.columns(2)
+	with cl:
+		
+		st.write('Here is a statistical summary of the numerical values in the dataset')
+		st.write(df.describe())
+	with c2:
+		
+		st.write('Here is a correlation summary of the numerical values in the dataset')
+		st.write(df.corr())
 
 	cv= df2.columns.tolist()
 	#cv1= df1.columns.tolist()
